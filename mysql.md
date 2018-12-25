@@ -63,7 +63,9 @@
 
 # mysql查询优化
 
-### 阶段一：mysql客户端/服务端通信 
+
+
+### 阶段一:mysql客户端/服务端通信 
 
 
 
@@ -100,7 +102,7 @@ SendingData
 
 
 
-### 阶段二、查询缓存 
+### 阶段二: 查询缓存 
 
 
 
@@ -122,7 +124,144 @@ SendingData
 
 mysql> show variables like 'query_cache%';
 
-
-
 mysql> show status like ‘Qcache%’;
+
+
+
+### 阶段三: 查询优化处理
+
+
+
+**查询优化又分为三个阶段:**
+
+* 解析sql 
+
+  ​	通过lex词法分析，yacc语法分析将sql语句解析成解析树
+
+* 预处理阶段
+
+  ​	根据mysql的语法的规则进一步检查解析树的合法性，如:检查数据的表和是否存在，解析名字和别名的设置，进行权限的验证。
+
+*  查询优化器
+
+  ​         优化器的主要作用就是找到最优的执行计划
+
+
+
+**查询优化器如何找到最优执行计划**
+
+* 将可转换的外连接查询转换成内连接查询
+
+ 
+
+#### select查询的序列号，标识执行的顺序     
+
+1、id相同，执行顺序由上至下
+
+2、id不同，如果是子查询，id的序号会递增，id值越大优先级越高，越先被执行
+
+3、id相同又不同即两种情况同时存在，id如果相同，可以认为是一组，从上往下顺序执行；在所有组中，id值越大，优先级越高，越先执行
+
+
+
+#### 执行计划-select_type
+
+查询的类型，主要是用于区分普通查询，联合查询，子查询等
+
+* SIMPLE : 简单的select查询，查询中不包含子查询或者union
+
+* PRIMARY：查询中包含字部分，最外层查询则被标记为primary
+
+* SUBQUERY/MATERIALIZED: SUBQUERY表示在select或where列表中包含了子查询
+
+​		MATERIALIZED表示where后面in条件的子查询
+
+* UNION: 若第二个select出现在union之后，则被标记为union
+
+* UNION RESULT： 从union表获取结果的select
+
+
+
+#### 执行计划-type
+
+访问类型，sql查询优化中一个很重要的指标，结果值从好到坏依次是：
+
+* system：表只有一行记录（等于系统表），const类型的特例，基本不会出现，可以忽略不计
+* const：表示通过索引一次就找到了，const用于比较primary key 或者 unique索引
+* eq_ref：唯一索引扫描，对于每个索引键，表中只有一条记录与之匹配。常见于主键 或 唯一索引扫描
+* ref：非唯一性索引扫描，返回匹配某个单独值的所有行，本质是也是一种索引访问
+* range：只检索给定范围的行，使用一个索引来选择行
+* index：Full Index Scan，索引全表扫描，把索引从头到尾扫一遍
+* ALL：Full Table Scan，遍历全表以找到匹配的行
+* possible_keys 查询过程中有可能用到的索引
+* key 实际使用的索引，如果为NULL，则没有使用索引 rows根据表统计信息或者索引选用情况，大致估算出找到所需的记录所需要读取的行数
+* filtered它指返回结果的行占需要读到的行(rows列的值)的百分比表示返回结果的行数占需读取行数的百分比，filtered的值越大越好
+
+
+
+#### 执行计划-Extra
+
+**十分重要的额外信息**
+
+* 1、Using filesort ：
+  mysql对数据使用一个外部的文件内容进行了排序，而不是按照表内的索引进行排序读取
+
+* 2、Using temporary：
+
+  使用临时表保存中间结果，也就是说mysql在对查询结果排序时使用了临时表，常见于order by 或 group by 
+
+* 3、Using index：
+表示相应的select操作中使用了覆盖索引（Covering Index），避免了访问表的数据行，效率高
+
+* 4、Using where ：
+  使用了where过滤条件
+* 5、select tables optimized away：
+  基于索引优化MIN/MAX操作或者MyISAM存储引擎优化COUNT(*)操作，不必等到执行阶段在进行计算，查询执行计划生成的阶段即可完成优化
+
+
+
+### 阶段四:查询执行引擎
+
+​	调用插件式的存储引擎的原子API的功能进行执行计划的执行
+
+
+
+### 阶段五：返回客户端
+
+1、有需要做缓存的，执行缓存操作
+2、增量的返回结果：
+开始生成第一条结果时,mysql就开始往请求方逐步返回数据
+好处： mysql服务器无须保存过多的数据，浪费内存
+用户体验好，马上就拿到了数据	
+
+
+
+# 如何定位慢sql
+
+ 1、业务驱动
+
+ 2、测试驱动
+
+
+
+ ### 慢查询日志
+
+* show variables like 'slow_query_log'
+* set global slow_query_log = on
+* set global slow_query_log_file = '/var/lib/mysql/gupaoeduslow.log'
+* set global log_queries_not_using_indexes = on 
+* set global long_query_time = 0.1 (秒)	
+
+
+
+**慢查询日志分析** 
+
+* Time ：日志记录的时间
+* User@Host：执行的用户及主机
+* Query_time：查询耗费时间 Lock_time 锁表时间 Rows_sent 发送给请求方的记录
+* 条数 Rows_examined 语句扫描的记录条数
+* SET timestamp 语句执行的时间点
+* select .... 执行的具体语句
+
+ mysqldumpslow -s at -t 10 /var/...
 
