@@ -6,7 +6,7 @@
 
 ### 	业务领域划分
 
-![project](F:\gupaonote\assert\project.png)
+![project](https://github.com/xiaohaiLab/gupao-note/blob/master/assert/project.png)
 
 
 
