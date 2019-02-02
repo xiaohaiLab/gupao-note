@@ -79,6 +79,8 @@ mysql通讯特点和限制:
 
 ​	客户端一旦开始接受数据没法停下来发送指令
 
+
+
 **https://dev.mysql.com/doc/refman/5.7/en/general-thread-states.html**
 
 
