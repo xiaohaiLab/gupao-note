@@ -2,11 +2,13 @@
 
 * [前言](README.md)
 * 性能优化专题
-    * [mysql](mysql.md)
-    * [tomcat](tomcat.pdf)
+    * [mysql](性能优化/mysql.md)
+    * [tomcat](性能优化/tomcat.pdf)
 * 项目实践
-  * [项目构架规划及平台搭建](project.md)
-    - [单点登录](singleton.md)
+  * [项目构架规划及平台搭建](项目实践/project.md)
+    - [单点登录](项目实践/singleton.md)
 * 微服务运维
-  * [docker网络](docker.md)
+  * [docker网络](docker/docker.md)
+  * [k8s](docker/k8s.md)
+  * [k8s安装文档](docker/Kubernetes集群安装文档.md)
 
