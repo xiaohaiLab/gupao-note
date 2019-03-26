@@ -3,6 +3,7 @@
 * [前言](README.md)
 * 性能优化专题
     * [mysql](mysql.md)
+    * [tomcat](tomcat.pdf)
 * 项目实践
   * [项目构架规划及平台搭建](project.md)
     - [单点登录](singleton.md)
