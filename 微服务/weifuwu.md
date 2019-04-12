@@ -2,7 +2,7 @@
 
 
 
- ![大整合](E:\gupaonote\assert\SC 大整合.png)
+ ![大整合](https://github.com/xiaohaiLab/gupao-note/blob/master/assert/SC%20%E5%A4%A7%E6%95%B4%E5%90%88.png)
 
 ### JPA
 
