@@ -82,6 +82,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/factory/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
       </set>
     </option>
   </component>

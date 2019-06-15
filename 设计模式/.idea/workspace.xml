@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfe9ceab-f020-4ac0-b0e0-85f904cf1950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/ICourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/ISource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/PythonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,6 +15,7 @@
     <ignored path="$PROJECT_DIR$/simplefactory/target/" />
     <ignored path="$PROJECT_DIR$/factorypatterns/target/" />
     <ignored path="$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/target/" />
+    <ignored path="$PROJECT_DIR$/proxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +26,12 @@
     <session id="-696687415">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,142 +40,87 @@
           <entry key="PythonCourseFactory" value="1" />
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="49" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="49" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1567" />
-          <entry key="xml" value="21" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="1744" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1567" />
-          <entry key="XML" value="21" />
+          <entry key="JAVA" value="1744" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/factorymethod/ICourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/ICourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/ISource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/AbstractFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/PythonFactory.java">
+        <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungrySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungryStaticSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaNote.java">
+        <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="138">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaVideo.java">
+        <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="197">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/INote.java">
+        <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazySimpleSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/IVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="184">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -190,8 +130,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -215,7 +156,6 @@
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/factorymethod/FactoryMethodTest.java" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/simplefactory/CourseFactory.java" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/simplefactory/SimpleFactoryTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/factorypatterns/pom.xml" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/factorymethod/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/JavaCourse.java" />
@@ -228,6 +168,10 @@
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/PythonFactory.java" />
         <option value="$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory/ICourseFactory.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/OrderDao.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/OderService.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/Order.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -272,7 +216,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="333" />
     <option name="y" value="36" />
     <option name="width" value="981" />
@@ -302,7 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,21 +262,22 @@
             </path>
             <path>
               <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="gupaoedu-vip-pattern-singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556689890736" />
-    <property name="last_opened_file_path" value="E:/work_xjpt" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558972993552" />
+    <property name="last_opened_file_path" value="E:/project/qipai" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -454,24 +399,23 @@
       <workItem from="1556673132217" duration="1991000" />
       <workItem from="1556675647285" duration="344000" />
       <workItem from="1556676189440" duration="11910000" />
+      <workItem from="1559551917341" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14245000" />
+    <option name="totallyTimeSpent" value="16727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="932" extended-state="7" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2571083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28554145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info anchor="bottom" id="Messages" weight="0.32971507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24016282" />
@@ -483,6 +427,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32971507" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,11 +461,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/util/locale/provider/HostLocaleProviderAdapterImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1955">
-          <folding>
-            <element signature="e#0#23254#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1955" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Calendar.java">
@@ -528,9 +470,6 @@
           <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/simplefactory/SimpleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,27 +480,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factorypatterns/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="uml://JAVA/com.edu.factory.factorymethod.PythonCourseFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -657,7 +575,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="377.3076923076922" y="198.38461538461533" />
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="377.0" y="198.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -685,19 +603,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/abstractfactory.java" />
     <entry file="file://$PROJECT_DIR$/factorypatterns/src/main/java/com/edu/factory/factorymethod/ICourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -751,17 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,16 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,6 +674,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="10" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factorypatterns/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/OderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/edu/sheji/proxy/dbroute/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungryStaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazySimpleSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
