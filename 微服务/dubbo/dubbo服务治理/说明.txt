@@ -1,0 +1,3 @@
+在课堂演示的配置中心不生效的原因是
+dubbo.application.name和dubbo.config-center.app-name这两个名称必须相同，
+具体问题需要看看源码是怎么实现的，我感觉这个地方如果是这样来设计，是不合理的。
