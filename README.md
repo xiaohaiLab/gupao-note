@@ -15,6 +15,9 @@
   * [dubbo](微服务)
 * 多线程
   * [多线程](多线程)
+* 设计模式
+  * [单例](设计模式/gupaoedu-vip-pattern-singleton)
+
 
 
 
