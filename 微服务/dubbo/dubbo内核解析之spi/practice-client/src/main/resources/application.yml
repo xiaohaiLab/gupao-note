@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: practice-client
+    owner: Mic
+  registry:
+    address: zookeeper://192.168.13.106:2181
+    check: true
+    group: dubbo-test
+    simplified: true
+  metadata-report:
+    address: zookeeper://192.168.13.106:2181
+    retry-times: 30
+    cycle-report: false
+    group: dubbo-test
+  scan:
+    base-packages: com.gupaoedu.dubbo.practice
